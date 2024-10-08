@@ -11,6 +11,10 @@
 		5B0C153B2C9B89AC003DCC1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0C153A2C9B89AC003DCC1F /* ContentView.swift */; };
 		5B0C153D2C9B89AD003DCC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0C153C2C9B89AD003DCC1F /* Assets.xcassets */; };
 		5B0C15402C9B89AD003DCC1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0C153F2C9B89AD003DCC1F /* Preview Assets.xcassets */; };
+		5B4512082C9D08C40001C20B /* ExpandableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4512072C9D08C40001C20B /* ExpandableView.swift */; };
+		5B45120A2C9D09700001C20B /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4512092C9D09700001C20B /* ThumbnailView.swift */; };
+		5B45120C2C9D09770001C20B /* ExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B45120B2C9D09770001C20B /* ExpandedView.swift */; };
+		5B45120F2C9D0F520001C20B /* AutumnFlowers-9YVZK.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B45120E2C9D0F520001C20B /* AutumnFlowers-9YVZK.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		5B0C153A2C9B89AC003DCC1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B0C153C2C9B89AD003DCC1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B0C153F2C9B89AD003DCC1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B13332F2C9BB59100A3299B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5B4512072C9D08C40001C20B /* ExpandableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableView.swift; sourceTree = "<group>"; };
+		5B4512092C9D09700001C20B /* ThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		5B45120B2C9D09770001C20B /* ExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedView.swift; sourceTree = "<group>"; };
+		5B45120E2C9D0F520001C20B /* AutumnFlowers-9YVZK.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AutumnFlowers-9YVZK.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +60,15 @@
 		5B0C15372C9B89AC003DCC1F /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				5B13332F2C9BB59100A3299B /* Info.plist */,
 				5B0C15382C9B89AC003DCC1F /* AfricaApp.swift */,
 				5B0C153A2C9B89AC003DCC1F /* ContentView.swift */,
+				5B45120E2C9D0F520001C20B /* AutumnFlowers-9YVZK.otf */,
 				5B0C153C2C9B89AD003DCC1F /* Assets.xcassets */,
 				5B0C153E2C9B89AD003DCC1F /* Preview Content */,
+				5B4512072C9D08C40001C20B /* ExpandableView.swift */,
+				5B4512092C9D09700001C20B /* ThumbnailView.swift */,
+				5B45120B2C9D09770001C20B /* ExpandedView.swift */,
 			);
 			path = Africa;
 			sourceTree = "<group>";
@@ -126,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B0C15402C9B89AD003DCC1F /* Preview Assets.xcassets in Resources */,
+				5B45120F2C9D0F520001C20B /* AutumnFlowers-9YVZK.otf in Resources */,
 				5B0C153D2C9B89AD003DCC1F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B0C153B2C9B89AC003DCC1F /* ContentView.swift in Sources */,
+				5B45120A2C9D09700001C20B /* ThumbnailView.swift in Sources */,
+				5B4512082C9D08C40001C20B /* ExpandableView.swift in Sources */,
+				5B45120C2C9D09770001C20B /* ExpandedView.swift in Sources */,
 				5B0C15392C9B89AC003DCC1F /* AfricaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +293,7 @@
 				DEVELOPMENT_TEAM = 52457H5F3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Africa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +323,7 @@
 				DEVELOPMENT_TEAM = 52457H5F3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Africa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
